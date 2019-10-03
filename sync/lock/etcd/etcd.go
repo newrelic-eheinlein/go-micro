@@ -9,8 +9,8 @@ import (
 	"strings"
 	"sync"
 
-	client "github.com/coreos/etcd/clientv3"
-	cc "github.com/coreos/etcd/clientv3/concurrency"
+	client "github.com/etcd-io/etcd/clientv3"
+	cc "github.com/etcd-io/etcd/clientv3/concurrency"
 	"github.com/micro/go-micro/sync/lock"
 )
 

@@ -6,8 +6,8 @@ import (
 	"net"
 	"time"
 
-	cetcd "github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/mvcc/mvccpb"
+	cetcd "github.com/etcd-io/etcd/clientv3"
+	"github.com/etcd-io/etcd/mvcc/mvccpb"
 	"github.com/micro/go-micro/config/source"
 )
 

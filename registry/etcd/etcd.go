@@ -12,10 +12,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/clientv3"
+	"github.com/etcd-io/etcd/clientv3"
 	"github.com/micro/go-micro/registry"
 
-	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/etcd-io/etcd/etcdserver/api/v3rpc/rpctypes"
 	hash "github.com/mitchellh/hashstructure"
 )
 
